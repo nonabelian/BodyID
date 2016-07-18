@@ -1,13 +1,14 @@
 Description:
 
 This script analyzes the "Human Activity Recognition Using Smartphones Data Set"
-data set (see below for link to the data set).
+data set (see below for link to the data set).  Data size: 10299 samples.
 
 One analysis is to predict the state of the person carrying the smartphone,
 based on the sensor data.  This script, however, classifies based on user id
 -- it learns to predict which user is carrying the phone -- using a
 feature vector with 561 features, derived from smartphone measurements.
-A physical signature, if you will.
+A physical signature, if you will.  The prediction accuracy is, on average,
+92%.
 
 Note: You must copy the relevant data folders to the src/ dir.  Or you can
       change the script to load the appropriate data files.
