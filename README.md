@@ -1,7 +1,6 @@
 **Description**:
 
-This script analyzes the [*Human Activity Recognition Using Smartphones*](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
-data set
+This script analyzes the [Human Activity Recognition Using Smartphones Data Set](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 Data size: 10299 samples.
 
@@ -55,7 +54,7 @@ A physical signature, if you will.  The prediction accuracy is, on average,
 
    Decision boundary of classification of individuals 'walking down stairs', based on t-SNE projection.
 
-**Data source**: [Human Activity Recognition Using Smartphones](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+**Data source**: [Human Activity Recognition Using Smartphones Data Set](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 **Citation**:
 
