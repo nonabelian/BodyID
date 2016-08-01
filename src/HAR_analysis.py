@@ -61,14 +61,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import matplotlib.colors as colors
-import matplotlib.markers as markers
+#import matplotlib.markers as markers
 
 from sklearn import cross_validation
 from sklearn import manifold
-from sklearn import svm
-from sklearn.naive_bayes import GaussianNB
-from sklearn.decomposition import TruncatedSVD
-from sklearn.cluster import KMeans
+#from sklearn.naive_bayes import GaussianNB
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_selection import SelectFromModel
 from sklearn import metrics
@@ -244,9 +241,9 @@ for a in list(activities):
 
     plt.show()
 
-#############
-# Plotting
-#############
+####################################
+# Plotting. Regardless of activity
+####################################
 
 # Plot the confusion matrix
 cfm = metrics.confusion_matrix(S_test, predicted)
