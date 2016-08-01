@@ -1,4 +1,4 @@
-Description:
+**Description**:
 
 This script analyzes the "Human Activity Recognition Using Smartphones Data Set"
 data set (see below for link to the data set).
@@ -12,12 +12,12 @@ feature vector with 561 features, derived from smartphone measurements.
 A physical signature, if you will.  The prediction accuracy is, on average,
 92%.
 
-Note:
+**Note**:
 
 		You must copy the relevant data folders to the src/ dir.  Or you can
     	change the script to load the appropriate data files.
 
-Data:
+**Data**:
 
 		* train/X_train.txt         -- 70% of data, 561 real numbered columns
 		* train/y_train.txt         -- 70% of data, one integer column, activity
@@ -26,9 +26,9 @@ Data:
 		* test/y_test.txt           -- 30% of data, one integer column, activity
 		* tset/subject_test.txt     -- 30% of data, one integer column, user id
 
-Run: `python HAR_analysis.py`
+**Run**: `python HAR_analysis.py`
 
-Output: 
+**Output**: 
 
 * 'cfm.jpg':
 
@@ -55,9 +55,9 @@ Output:
 
    Decision boundary of classification of individuals 'walking down stairs', based on t-SNE projection.
 
-Data source: [Human Activity Recognition Using Smartphones](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+**Data source**: [Human Activity Recognition Using Smartphones](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-Citation:
+**Citation**:
 
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge
 L.Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using
