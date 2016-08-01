@@ -1,7 +1,7 @@
 **Description**:
 
-This script analyzes the "Human Activity Recognition Using Smartphones Data Set"
-data set (see below for link to the data set).
+This script analyzes the [*Human Activity Recognition Using Smartphones*](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+data set
 
 Data size: 10299 samples.
 
