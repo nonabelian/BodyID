@@ -45,7 +45,7 @@ Output:
                                          individuals 'walking down stairs', based
                                          on t-SNE projection.
 * 'Walking Up Stairs_db.jpg':
-...Decision boundary of classification of individuals 'walking down stairs', based on t-SNE projection.
+   Decision boundary of classification of individuals 'walking down stairs', based on t-SNE projection.
 
 Data source: [Human Activity Recognition Using Smartphones](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
