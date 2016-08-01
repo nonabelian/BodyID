@@ -30,21 +30,29 @@ Run: `python HAR_analysis.py`
 
 Output: 
 
-* cfm.jpg         -- Normalized confusion matrix for the classification
-* db.jpg          -- Decision boundary visualization from the best two
-                             features.
-* Laying_db.jpg   -- Decision boundary of classification of individuals
-                            'laying', based on t-SNE projection.
-* Sitting_db.jpg  -- Decision boundary of classification of individuals
-                            'sitting', based on t-SNE projection.
-* Standing_db.jpg -- Decision boundary of classification of individuals
-                            'standing', based on t-SNE projection.
-* Walking_db.jpg  -- Decision boundary of classification of individuals
-                            'walking', based on t-SNE projection.
-* Walking Down Stairs_db.jpg  -- Decision boundary of classification of
-                                         individuals 'walking down stairs', based
-                                         on t-SNE projection.
+* 'cfm.jpg':
+
+   Normalized confusion matrix for the classification
+* 'db.jpg':
+
+   Decision boundary visualization from the best two features.
+* 'Laying_db.jpg':
+
+   Decision boundary of classification of individuals 'laying', based on t-SNE projection.
+* 'Sitting_db.jpg':
+
+   Decision boundary of classification of individuals 'sitting', based on t-SNE projection.
+* 'Standing_db.jpg':
+
+   Decision boundary of classification of individuals 'standing', based on t-SNE projection.
+* 'Walking_db.jpg':
+
+   Decision boundary of classification of individuals 'walking', based on t-SNE projection.
+* 'Walking Down Stairs_db.jpg':
+
+   Decision boundary of classification of individuals 'walking down stairs', based on t-SNE projection.
 * 'Walking Up Stairs_db.jpg':
+
    Decision boundary of classification of individuals 'walking down stairs', based on t-SNE projection.
 
 Data source: [Human Activity Recognition Using Smartphones](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
