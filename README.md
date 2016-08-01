@@ -17,34 +17,34 @@ Note:
 
 Data:
 
-        *train/X_train.txt         -- 70% of data, 561 real numbered columns
-        *train/y_train.txt         -- 70% of data, one integer column, activity
-        *train/subject_train.txt   -- 70% of data, one integer column, user id
-        *test/X_test.txt           -- 30% of data, 561 real numbered columns
-        *test/y_test.txt           -- 30% of data, one integer column, activity
-        *tset/subject_test.txt     -- 30% of data, one integer column, user id
+*train/X_train.txt         -- 70% of data, 561 real numbered columns
+*train/y_train.txt         -- 70% of data, one integer column, activity
+*train/subject_train.txt   -- 70% of data, one integer column, user id
+*test/X_test.txt           -- 30% of data, 561 real numbered columns
+*test/y_test.txt           -- 30% of data, one integer column, activity
+*tset/subject_test.txt     -- 30% of data, one integer column, user id
 
 Run:
 
-        `python HAR_analysis.py`
+...`python HAR_analysis.py`
 
 Output: 
 
-        *cfm.jpg         -- Normalized confusion matrix for the classification
-        *db.jpg          -- Decision boundary visualization from the best two
+*cfm.jpg         -- Normalized confusion matrix for the classification
+*db.jpg          -- Decision boundary visualization from the best two
                            features.
-        *Laying_db.jpg   -- Decision boundary of classification of individuals
+*Laying_db.jpg   -- Decision boundary of classification of individuals
                            'laying', based on t-SNE projection.
-        *Sitting_db.jpg  -- Decision boundary of classification of individuals
+*Sitting_db.jpg  -- Decision boundary of classification of individuals
                            'sitting', based on t-SNE projection.
-        *Standing_db.jpg -- Decision boundary of classification of individuals
+*Standing_db.jpg -- Decision boundary of classification of individuals
                            'standing', based on t-SNE projection.
-        *Walking_db.jpg  -- Decision boundary of classification of individuals
+*Walking_db.jpg  -- Decision boundary of classification of individuals
                            'walking', based on t-SNE projection.
-        *Walking Down Stairs_db.jpg  -- Decision boundary of classification of
+*Walking Down Stairs_db.jpg  -- Decision boundary of classification of
                                        individuals 'walking down stairs', based
                                        on t-SNE projection.
-        *Walking Up Stairs_db.jpg    -- Decision boundary of classification of
+*Walking Up Stairs_db.jpg    -- Decision boundary of classification of
                                        individuals 'walking down stairs', based
                                        on t-SNE projection.
 
