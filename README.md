@@ -1,6 +1,8 @@
 **Description**:
 
 This script analyzes the [Human Activity Recognition Using Smartphones Data Set](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+It uses Random Forest classifiers and t-SNE projections to cluster and
+predict smartphone users, based on motion sensor data.
 
 Data size: 10299 samples.
 
@@ -8,8 +10,13 @@ One analysis is to predict the state of the person carrying the smartphone,
 based on the sensor data.  This script, however, classifies based on user id
 -- it learns to predict which user is carrying the phone -- using a
 feature vector with 561 features, derived from smartphone measurements.
-A physical signature, if you will.  The prediction accuracy is, on average,
-92%.
+This is regardless of the activity the individual is performing -- a physical
+signature, if you will.  The prediction accuracy is on average 92%.
+
+In addition, the script then computes a classification per activity.
+First each activity's data undergoes t-SNE reduction to two dimensions,
+to demonstrate clustering relations/closeness.  Then classification is
+performed for each activity, with accuracy upwards of 95% for some activities.
 
 **Note**:
 
